@@ -131,3 +131,20 @@ Retrofit Network and uses-permission
        // TODO : see Android_Review_13
        // an Adapter class inherited from RecyclerView.Adapter<DevByteViewHolder> 
     
+4. code a http getter service module.
+
+       // go to app/src/main/java/com/example/android/katesapp/network/Service.kt
+       
+       package com.example.android.katesvideoapp.network
+       
+       [network module]
+       import retrofit2.Retrofit
+       import retrofit2.http.GET
+       
+       [adapter module]
+       // TODO:
+       // see Android_Rewiew_13
+       
+       [coroutines module]
+       // TODO:
+       // see Android_Rewiew_12
