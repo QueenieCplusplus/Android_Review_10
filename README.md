@@ -192,9 +192,28 @@ Retrofit Network and uses-permission
        
        // TODO
        // after Android_Review_11 is done.
-       httpResult - dbObj converter
+       // httpResult - dbObj converter
+       
+       /* fun methodCalled(): List<Video> {
+       
+             return videos.map {
+             
+                 Video(
+                 
+                     title = it.title
+                     des = it.des
+                     url = it.url
+                     updated = it.updated
+                     thumbnail = it.thumbnail
+                 
+                 )
+             
+             }
        
        
+       }*/
+       
+ 
        // VideoHolder
        /*
           {
