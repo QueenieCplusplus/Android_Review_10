@@ -24,4 +24,26 @@ Retrofit Network and uses-permission
 
 2. add uses-permission tag in AndroidManifest.xml
 
+       <?xml encoding="utf-8" ?>
+       
+       <manifest
+          package="com.example.android.katesappvideoapp"
+       >
+       
+          <uses-permission
+              android:name="android.permission.INTERNET"
+          >
+          
+          <application>
+          
+              <activity
+                 android:name=""
+              >
+              
+              </activity>
+          
+          </appliaction>
+       
+       </manifest>
+
     
