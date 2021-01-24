@@ -175,13 +175,20 @@ Retrofit Network and uses-permission
        
        }
        
+       
+5. Data format Transferer.
+
+       // go to app/src/main/java/com/example/android/katesapp/network/DataConverter.kt
+       
+       package
+       
 
 
-5. today's tip (bit and Byte)
+6. today's tip (bit and Byte)
 
    bit （位元）為資料傳輸單位，byte （位元組） 為檔案大小單位。
    
-6. today's tip (abstract class and interface)
+7. today's tip (abstract class and interface)
 
    訊息不足夠的描繪對象適用於『抽象類別』。
    而『介面』屬於 『抽象類別』，抽象類別不屬於介面。
@@ -238,13 +245,13 @@ Retrofit Network and uses-permission
        
        }
  
-7. today's tip (::)
+8. today's tip (::)
 
    class ref
    
    https://stackoverflow.com/questions/47400942/what-does-mean-in-kotlin
        
        
-8. today's tip (suspend fun)
+9. today's tip (suspend fun)
 
 
