@@ -189,6 +189,29 @@ Retrofit Network and uses-permission
        import com.square.moshi.JsonClass
        
        
+              // VideoHolder
+       /*
+          {
+            "videos": []
+          }
+       
+       */
+       
+       
+       // httpResult 
+       @JsonClass(generateAdapter = true)
+       data class Video(
+              
+              val title: String,
+              val des: String,
+              val url: String,
+              val updated: String,
+              val falesCaption: String?, // nullable
+              val thumbnail: String // 縮圖
+                 
+       )
+       
+   
        
        // TODO
        // after Android_Review_11 is done.
@@ -212,30 +235,7 @@ Retrofit Network and uses-permission
        
        
        }*/
-       
- 
-       // VideoHolder
-       /*
-          {
-            "videos": []
-          }
-       
-       */
-       
-       
-       // httpResult 
-       @JsonClass(generateAdapter = true)
-       data class Video(
-              
-              val title: String,
-              val des: String,
-              val url: String,
-              val updated: String,
-              val falesCaption: String?, // nullable
-              val thumbnail: String // 縮圖
-                 
-       )
-       
+      
              
 
 
