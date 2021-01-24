@@ -83,6 +83,31 @@ Retrofit Network and uses-permission
           
        package com.example.android.katesvideoapp.ui
        
-          
+       [modules to be imported]
        
+       
+       
+       // show a list of choices using RecyclerView component
+       
+       class KatesVideoAppFragment: Fragment(){
+       
+       
+            // TODO : see Androie_Review_11
+            // data defined hereby
+            
+            // TODO : see Androie_Review_?
+            // viewModelAdapter
+            
+            overrdie onViewCreated(v: View, savedInstanceState: Bundle?){
+            
+              super.onViewCreated(v, avedInstanceState )
+              
+              // TODO : see Androie_Review_?
+              // viewModel's oberserve method called
+            
+            }
+             
+       
+       
+       }
     
