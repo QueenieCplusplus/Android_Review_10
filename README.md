@@ -172,5 +172,5 @@ Retrofit Network and uses-permission
    
 6. today's tip (abstract class and interface)
 
-   訊息不足夠的描繪對象
+   訊息不足夠的描繪對象適用於『抽象類別』。
    
