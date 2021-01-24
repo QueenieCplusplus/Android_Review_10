@@ -212,13 +212,12 @@ Retrofit Network and uses-permission
               val des: String,
               val url: String,
               val updated: String,
-              val falesCaption: String? // nullable
-           
+              val falesCaption: String?, // nullable
+              val thumbnail: String // 縮圖
+                 
        )
        
-       
-       
-       
+             
 
 
 6. today's tip (bit and Byte)
