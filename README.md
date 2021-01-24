@@ -222,11 +222,19 @@ Retrofit Network and uses-permission
        
        }
        
-       class DollyActress extends Action implements HumanFaciaAct {
+       interface RobotAction {
+       
+              void walk();
+              void sway();
+       
+       }
+       
+       class DollyActress extends Action implements HumanFaciaAct, RobotAction {
        
               void catch(param){body}; 
               void throw(param){body};
               void smile(); 
+              void walk();
        
        }
  
