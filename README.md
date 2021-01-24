@@ -190,6 +190,33 @@ Retrofit Network and uses-permission
        
        
        
+       // TODO
+       // after Android_Review_11 is done.
+       httpResult - dbObj converter
+       
+       
+       // VideoHolder
+       /*
+          {
+            "videos": []
+          }
+       
+       */
+       
+       
+       // httpResult 
+       @JsonClass(generateAdapter = true)
+       data class Video(
+              
+              val title: String,
+              val des: String,
+              val url: String,
+              val updated: String,
+              val falesCaption: String? // nullable
+           
+       )
+       
+       
        
        
 
