@@ -176,4 +176,32 @@ Retrofit Network and uses-permission
    而『介面』屬於 『抽象類別』，抽象類別不屬於介面。
    
    Java 語言中，類支援多重導入 implements 介面，不支持派生類別多重繼承 extends 抽象類別。
+   派生類 is a 抽象類別，派生類 as a 介面。
+   
+   設計意圖如下：
+   
+       abstract class Action {
+       
+              abstract void catch();
+              abctract void throw();
+       
+       }
+       
+       interface FacialAct {
+       
+              void smile();
+              void yell();
+              void cry();
+       
+       }
+       
+       class DollyActress extends Action implements FaciaAct {
+       
+              void catch();
+              void throw();
+              void smile();
+       
+       }
+       
+       
    
