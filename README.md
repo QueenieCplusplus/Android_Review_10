@@ -40,6 +40,13 @@ Retrofit Network and uses-permission
                  android:name="activity_main_katesVideoApp"
               >
               
+                  <intent-filter>
+                  
+                     <action/>
+                     <category/>
+                     
+                  </intent-filter>
+              
               </activity>
           
           </appliaction>
