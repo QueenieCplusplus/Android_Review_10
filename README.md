@@ -178,12 +178,22 @@ Retrofit Network and uses-permission
    Java 語言中，類支援多重導入 implements 介面，不支持派生類別多重繼承 extends 抽象類別。
    派生類 is a 抽象類別，派生類 as a 介面。
    
+   抽象類別的限制：
+   (1) 抽象類別無法用 new 產生實例物件。
+   (2) 抽象類別需要宣告，不需要實作。
+   (3) 繼承的子類別需要實做繼承來的方法。
+   
+   介面的限制：
+   (1) 介面的方法沒有參數，所以沒有建構方法。
+   (2) 介面中的資料成員為常數，故需要初始化。
+   (3) 介面的方法必須為抽象或是 public。
+   
    洋娃娃女演員本質上是能演繹出取得和丟的行為，同時具有人類的表情表達功能，設計意圖如下：
    
        abstract class Action {
        
-              abstract void catch();
-              abctract void throw();
+              abstract void catch(param);
+              abctract void throw(param);
        
        }
        
@@ -197,9 +207,9 @@ Retrofit Network and uses-permission
        
        class DollyActress extends Action implements HumanFaciaAct {
        
-              void catch();
-              void throw();
-              void smile();
+              void catch(param){body}; 
+              void throw(param){body};
+              void smile(); 
        
        }
        
