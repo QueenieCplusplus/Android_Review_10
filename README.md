@@ -176,8 +176,8 @@ Retrofit Network and uses-permission
        }
        
        
-5. Data format Transferer.
-
+5. Data format Transferer. It is responsible for parsing the response from server, and formatting obj to server, anyway this customed tool is used by domain obj which is defined in Android_Review_11.
+ 
        // go to app/src/main/java/com/example/android/katesapp/network/DataConverter.kt
        
        package com.example.android.katesvideoapp.network
@@ -186,6 +186,9 @@ Retrofit Network and uses-permission
        // TODO: see Android_Review_11
        
        [converter module]
+       import com.square.moshi.JsonClass
+       
+       
        
        
        
