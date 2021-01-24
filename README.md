@@ -180,7 +180,14 @@ Retrofit Network and uses-permission
 
        // go to app/src/main/java/com/example/android/katesapp/network/DataConverter.kt
        
-       package
+       package com.example.android.katesvideoapp.network
+       
+       [db & domain module]
+       // TODO: see Android_Review_11
+       
+       [converter module]
+       
+       
        
 
 
