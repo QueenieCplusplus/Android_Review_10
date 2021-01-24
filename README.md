@@ -37,7 +37,7 @@ Retrofit Network and uses-permission
           <application>
           
               <activity
-                 android:name="activity_main_katesVideoApp"
+                 android:name="UI.activity_main_katesVideoApp"
               >
               
                   <intent-filter>
@@ -53,4 +53,29 @@ Retrofit Network and uses-permission
        
        </manifest>
 
+3. databind with UI and code.
+
+       // go to app/src/main/java/com/example/android/katesvideoapp/UI/KatesVideoAppMainActivity.kt
+       
+       package com.example.android.katesvideoapp.ui
+       
+       [default module]
+       import android.os.Bundle
+       import androidx.appcompat.app.AppCompatActivity
+       
+       [R]
+       import com.example.android.katesvideoapp.R
+       
+       class KatesVideoAppMainActivit: AppComaptActivity(){
+       
+              override fun onCreate(savedInstanceState: Bundle?){
+              
+                     super.onCreate(savedInstanceState)
+                     setContentView(R.layout.activity_)
+              
+              }
+       
+       }
+       
+       
     
