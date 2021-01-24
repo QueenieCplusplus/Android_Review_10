@@ -78,8 +78,11 @@ Retrofit Network and uses-permission
        }
        
           // content is displayed by Fragment
-          // go to app/src/main/java/com/example/android/katesvideoapp/ui/
+          // go to app/src/main/java/com/example/android/katesvideoapp/ui/KatesVideoAppFragment.kt
           // see fragment_katesVieoApp.xml
+          
+       package com.example.android.katesvideoapp.ui
+       
           
        
     
