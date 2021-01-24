@@ -236,14 +236,21 @@ Retrofit Network and uses-permission
        
        }*/
       
-             
+ 
+6. app's architecture =>
 
 
-6. today's tip (bit and Byte)
+              app - db (data src fm Room)
+                  - domain (see Android_Review_11, data src fm web server)
+                  - repo (mediators for diff data src)
+                  - viewmodels (see Android_Review_12, to resolve the problems from I/O threads and UI main thread using coroutines instead of threads)
+           
+
+7. today's tip (bit and Byte)
 
    bit （位元）為資料傳輸單位，byte （位元組） 為檔案大小單位。
    
-7. today's tip (abstract class and interface)
+8. today's tip (abstract class and interface)
 
    訊息不足夠的描繪對象適用於『抽象類別』。
    而『介面』屬於 『抽象類別』，抽象類別不屬於介面。
@@ -300,13 +307,15 @@ Retrofit Network and uses-permission
        
        }
  
-8. today's tip (::)
+9. today's tip (::)
 
    class ref
    
    https://stackoverflow.com/questions/47400942/what-does-mean-in-kotlin
        
        
-9. today's tip (suspend fun)
+10. today's tip (suspend fun)
+
+  plz wait...
 
 
