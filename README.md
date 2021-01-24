@@ -71,11 +71,13 @@ Retrofit Network and uses-permission
               override fun onCreate(savedInstanceState: Bundle?){
               
                      super.onCreate(savedInstanceState)
-                     setContentView(R.layout.activity_)
+                     setContentView(R.layout.activity_main_katesVideoApp)
               
               }
        
        }
+       
+          // content is displayed by Fragment
        
        
     
