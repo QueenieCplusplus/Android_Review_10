@@ -131,7 +131,7 @@ Retrofit Network and uses-permission
        // TODO : see Android_Review_13
        // an Adapter class inherited from RecyclerView.Adapter<DevByteViewHolder> 
     
-4. code an object as a Main Entry Point for Network Access.
+4. code an object as a Main Entry Point for Network Access using objName.interfaceName.methodCalled(). and using Retrofit.Builder().chainMethodCalled().create(ServiceInterface)
 
        // go to app/src/main/java/com/example/android/katesapp/network/Service.kt
        
@@ -143,23 +143,34 @@ Retrofit Network and uses-permission
        [Byte ftecher module]
        import retrofit2.http.GET
        
-       [adapter module]
-       // TODO:
-       // see Android_Rewiew_13
-       
        [coroutines module]
        // TODO:
        // see Android_Rewiew_12
        
+       [converter module]
+       import retrofit2.converter.moshi.MoshiConverterFactory
+       
+       
        // object as a Main Entry Point for Network Access.
        // called `objName.interfaceName.methodCalled()`
        
-       object Network {
        
+       interface Service {
+       
+              @GET("bytesGetter")
+              // TODO：Android_Rewiew_1
+              // 回傳的型別
+              suspencd fun getPlayer(): 回傳的型別 // 介面的方法沒有參數，故沒有建構子。
        
        }
        
-       interface Service {
+       
+       object Network {
+       
+             //放入 url 字串 
+             parivate val rtf = Retrofit.Builder().baseUrl("").addConverterFactory(MoshiConverterFactory.create()).build()
+       
+             val bytesGetter = rtf.create(Service::class.java)
        
        
        }
@@ -226,4 +237,6 @@ Retrofit Network and uses-permission
    https://stackoverflow.com/questions/47400942/what-does-mean-in-kotlin
        
        
-   
+8. today's tip (suspend fun)
+
+
