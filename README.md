@@ -173,4 +173,7 @@ Retrofit Network and uses-permission
 6. today's tip (abstract class and interface)
 
    訊息不足夠的描繪對象適用於『抽象類別』。
+   而『介面』屬於 『抽象類別』，抽象類別不屬於介面。
+   
+   Java 語言中，類支援多重繼承介面，不支持多重繼承抽象類別。
    
