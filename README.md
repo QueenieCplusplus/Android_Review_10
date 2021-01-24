@@ -169,3 +169,5 @@ Retrofit Network and uses-permission
 5. today's tip (bit and Byte)
 
    bit （位元）為資料傳輸單位，byte （位元組） 為檔案大小單位。
+   
+6. today's tip (abstract class and interface)
