@@ -92,22 +92,42 @@ Retrofit Network and uses-permission
        class KatesVideoAppFragment: Fragment(){
        
        
-            // TODO : see Androie_Review_11
+            // TODO : see Android_Review_11
             // data defined hereby
             
-            // TODO : see Androie_Review_?
+            // TODO : see Android_Review_13
             // viewModelAdapter
             
-            overrdie onViewCreated(v: View, savedInstanceState: Bundle?){
+            overrdie fun onViewCreated(v: View, savedInstanceState: Bundle?){
             
               super.onViewCreated(v, avedInstanceState )
               
-              // TODO : see Androie_Review_?
+              // TODO : see Android_Review_13
               // viewModel's oberserve method called
+              // render viewModelAdapter
             
             }
-             
+            
+            
+            override fun onCreatedView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+            
+            
+                // TODO today
+                // databinding hereby
+                
+                // val binding = waith to defined
+                
+                // render binding.root
+                
+                // TODO today
+                // Network Error Observer and Catcher
+            
+            
+            }  
        
        
        }
+       
+       // TODO : see Android_Review_13
+       // an Adapter class inherited from RecyclerView.Adapter<DevByteViewHolder> 
     
