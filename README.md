@@ -1,5 +1,5 @@
 # Android_Review_10
-Retrofit Network
+Retrofit Network and uses-permission
 
 1. add dependencies using implementation method called in path app/build.gradle
 
@@ -21,3 +21,7 @@ Retrofit Network
             kapt "com.squareup.moshi: moshi-kotlin-codegen: $moshi_version"
 
        }
+
+2. add uses-permission tag in AndroidManifest.xml
+
+    
