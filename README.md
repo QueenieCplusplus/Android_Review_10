@@ -37,7 +37,7 @@ Retrofit Network and uses-permission
           <application>
           
               <activity
-                 android:name=""
+                 android:name="activity_main_katesVideoApp"
               >
               
               </activity>
