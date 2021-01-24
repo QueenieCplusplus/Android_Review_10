@@ -131,7 +131,7 @@ Retrofit Network and uses-permission
        // TODO : see Android_Review_13
        // an Adapter class inherited from RecyclerView.Adapter<DevByteViewHolder> 
     
-4. code a http getter service module.
+4. code an object as a Main Entry Point for Network Access.
 
        // go to app/src/main/java/com/example/android/katesapp/network/Service.kt
        
@@ -139,6 +139,8 @@ Retrofit Network and uses-permission
        
        [network module]
        import retrofit2.Retrofit
+       
+       [Byte ftecher module]
        import retrofit2.http.GET
        
        [adapter module]
@@ -148,6 +150,20 @@ Retrofit Network and uses-permission
        [coroutines module]
        // TODO:
        // see Android_Rewiew_12
+       
+       // object as a Main Entry Point for Network Access.
+       // called `objName.interfaceName.methodCalled()`
+       
+       object Network {
+       
+       
+       }
+       
+       interface Service {
+       
+       
+       }
+       
 
 
 5. today's tip (bit and Byte)
