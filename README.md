@@ -178,7 +178,7 @@ Retrofit Network and uses-permission
    Java 語言中，類支援多重導入 implements 介面，不支持派生類別多重繼承 extends 抽象類別。
    派生類 is a 抽象類別，派生類 as a 介面。
    
-   設計意圖如下：
+   洋娃娃女演員本質上是能演繹出取得和丟的行為，同時具有人類的表情表達功能，設計意圖如下：
    
        abstract class Action {
        
@@ -187,7 +187,7 @@ Retrofit Network and uses-permission
        
        }
        
-       interface FacialAct {
+       interface HumanFacialAct {
        
               void smile();
               void yell();
@@ -195,13 +195,14 @@ Retrofit Network and uses-permission
        
        }
        
-       class DollyActress extends Action implements FaciaAct {
+       class DollyActress extends Action implements HumanFaciaAct {
        
               void catch();
               void throw();
               void smile();
        
        }
+       
        
        
    
