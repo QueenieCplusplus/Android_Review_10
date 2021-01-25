@@ -189,13 +189,16 @@ Retrofit Network and uses-permission
        import com.square.moshi.JsonClass
        
        
-              // VideoHolder
+       // VideoHolder
        /*
           {
             "videos": []
           }
        
        */
+       
+       @JsonClass
+       data class NetworkVideoContainer(val videos: List<NetworkVideo>)
        
        
        // httpResult 
@@ -214,10 +217,10 @@ Retrofit Network and uses-permission
    
        
        // TODO
-       // after Android_Review_11 is done.
+       // after Android_Review_11 & 12 is done.
        // httpResult - dbObj converter
        
-       /* fun methodCalled(): List<Video> {
+       /* fun (): List<Video> {
        
              return videos.map {
              
@@ -236,18 +239,59 @@ Retrofit Network and uses-permission
        
        }*/
        
-6. after Android_Review_11 is done, then back to code for Network obj & Network data model converters.
+6. after Android_Review_11 & 12 are done, then back to code for Network obj & Network data model converters.
 
              // katesapp/network/DataConverter.kt
-             
-             
       
+             // after Android_Review_11 & 12 is done.
+             // httpResult - dbObj converter
+       
+            // public fun
+            fun NetworkVideoContainer.asDomainModel(): List<Video> {
+       
+             return videos.map {
+             
+                 Video(
+                 
+                     title = it.title
+                     des = it.des
+                     url = it.url
+                     updated = it.updated
+                     thumbnail = it.thumbnail
+                 
+                 )
+             
+             }
+       
+           }
+           
+           
+           // public fun 
+           fun NetworkVideoContainer.asDomainModel(): List<DBVideo> {
+           
+               return videos.map {
+               
+                     DBVideo(
+                     
+                        title = it.title
+                        des = it.des
+                        url = it.url
+                        updated = it.updated
+                        thumbnail = it.thumbnail
+                     
+                     
+                     )
+               
+               }
+           
+           }
+             
  
 7. app's architecture =>
 
 
               app 
-                  - network (data src fm web server) 
+                  - network (data obj to Domain Model & to DB model) 
                   
                   - db (data src fm Room)
                   - domain (see Android_Review_11, data src fm web server)
