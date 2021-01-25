@@ -246,8 +246,12 @@ Retrofit Network and uses-permission
 7. app's architecture =>
 
 
-              app - db (data src fm Room)
+              app 
+                  - network (data src fm web server) 
+                  
+                  - db (data src fm Room)
                   - domain (see Android_Review_11, data src fm web server)
+                  
                   - repo (mediators for diff data src)
                   - viewmodels (see Android_Review_12, to resolve the problems from I/O threads and UI main thread using coroutines instead of threads)
            
