@@ -200,7 +200,7 @@ Retrofit Network and uses-permission
        
        // httpResult 
        @JsonClass(generateAdapter = true)
-       data class Video(
+       data class NetworkVideo(
               
               val title: String,
               val des: String,
@@ -235,9 +235,15 @@ Retrofit Network and uses-permission
        
        
        }*/
+       
+6. after Android_Review_11 is done, then back to code for Network obj & Network data model converters.
+
+             // katesapp/network/DataConverter.kt
+             
+             
       
  
-6. app's architecture =>
+7. app's architecture =>
 
 
               app - db (data src fm Room)
