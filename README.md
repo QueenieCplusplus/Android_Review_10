@@ -1,6 +1,8 @@
 # Android_Review_10
 Retrofit Network and uses-permission
 
+2018~2019 年使用 okhttp 模組，而 2020~2021 改使用 Retrofit 模組。
+
 1. add dependencies using implementation method called in path app/build.gradle
 
        dependencies {
