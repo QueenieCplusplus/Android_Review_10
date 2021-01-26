@@ -372,6 +372,6 @@ Retrofit Network and uses-permission
        
 10. today's tip (suspend fun)
 
-  plz wait...
+     ![](https://raw.githubusercontent.com/QueenieCplusplus/Android_Review_10/main/suspend.png)
 
 
